@@ -5,3 +5,12 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+tweets = [
+    {message: 'Every tweet is a cry for help'},
+    {message: 'Seed my database'},
+    {message: 'father... why are you putting me through this'},
+    {message: 'mother...I\'m talking to my compupter again....'}
+]
+
+Tweet.create(tweets)
